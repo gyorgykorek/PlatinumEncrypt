@@ -1,0 +1,11 @@
+sage Guide
+Any plain-text input or output that you enter or we generate is not stored on this site, this tool is provided via an HTTPS URL to ensure that text cannot be stolen.
+
+For encryption, you can either enter the plain text, password, an image file or a .txt file that you want to encrypt. Now choose the block cipher mode of encryption. ECB(Electronic Code Book) is the simplest encryption mode and does not require IV for encryption. The input plain text will be divided into blocks and each block will be encrypted with the key provided and hence identical plain text blocks are encrypted into identical cipher text blocks. CBC mode is highly recommended and it requires IV to make each message unique. If no IV is entered then default will be used here for CBC mode and that defaults to a zero based byte[16].
+
+The AES algorithm has a 128-bit block size, regardless of whether you key length is 256, 192 or 128 bits. When a symmetric cipher mode requires an IV, the length of the IV must be equal to the block size of the cipher. Hence, you must always use an IV of 128 bits (16 bytes) with AES.
+AES provides 128 bit, 192 bit and 256 bit of secret key size for encryption. Things to remember here is if you are selecting 128 bits for encryption, then the secret key must be of 16 bits long and 24 and 32 bits for 192 and 256 bits of key size. Now you can enter the secret key accordingly. By default, the encrypted text will be base64 encoded but you have options to select the output format as HEX too.
+
+Similarly, for image and .txt file the encrypted form will be Base64 encoded.
+
+Below is a screenshot that shows a sample usage of this online AES encryption tool.

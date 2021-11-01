@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PlatinumEncryption:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PlatinumEncryption_jar</output-path>
+    <root id="archive" name="PlatinumEncryption.jar">
+      <element id="module-output" name="AEStest" />
+    </root>
+  </artifact>
+</component>
